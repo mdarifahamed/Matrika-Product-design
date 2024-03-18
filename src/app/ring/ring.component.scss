@@ -1,0 +1,107 @@
+.chain-header {
+    width: 100%;
+  }
+  .ring {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .drop-head {
+    padding-top: 30px;
+  }
+  
+  .btn-secondary {
+    height: 40px;
+    width: 123px;
+    background-color: #b7a9ab;
+    font-weight: 500;
+  }
+  
+  .para-filt {
+    text-align: center;
+  }
+  
+  .ring-bg {
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .ring-gold {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+  
+    .ring-img {
+      width: 100%;
+      height: 235px;
+      border-radius: 5px;
+      transition: transform 0.5s;
+      overflow: hidden;
+    }
+    .ring-img:hover {
+      transform: scale(1.5);
+    }
+  }
+  
+  .para-ring {
+    text-align: center;
+  }
+  
+  .ring-para1 {
+    color: #6e7191;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Inter, sans-serif;
+    padding-top: 8px;
+    margin: 0px;
+  }
+  
+  .ring-para2 {
+    color: #242330;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    padding-top: 5px;
+    margin: 0px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .ring {
+      height: 170px;
+    }
+  
+    .ring-gold {
+      overflow: none;
+       .ring-img {
+        transition:none;
+        overflow: none;
+      }
+      .ring-img:hover {
+        transform: none
+      }
+    }
+  
+    .dropdown {
+      padding-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width:768px) and (min-width:680px) {
+     .btn-secondary{
+      padding-left: 5px;
+     }
+  
+     .ring-gold{
+      .ring-img{
+          height: 100px;
+      }
+     }
+  
+   
+  
+   
+      
+  }

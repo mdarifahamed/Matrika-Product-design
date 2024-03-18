@@ -1,0 +1,308 @@
+.header-bg {
+  background-color: rgb(212, 200, 202);
+  width: 100%;
+  padding: 6px 0px;
+}
+
+.icon-img {
+  display: flex;
+}
+
+img {
+  width: 70px;
+  height: 67px;
+  cursor: pointer;
+}
+
+.img-line {
+  height: 50px;
+  border-left: 2px solid #9d676e;
+  margin-top: 7px;
+  margin-left: 12px;
+  img {
+    width: 91px;
+    height: 67px;
+    margin-left: 12px;
+  }
+}
+
+.input {
+  width: 378px;
+  height: 40px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  color: #4e4b66;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 16px;
+}
+
+.search {
+  padding: 22px 0 12px;
+}
+
+.icon-headers {
+  padding: 19px 0px 5px;
+}
+.account {
+  text-align: center !important;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+}
+
+.para-acc {
+  color: #803841;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+}
+
+.heart {
+  text-align: center !important;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+}
+
+.cart {
+  text-align: center !important;
+  img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+  }
+
+  .header-bg {
+    width: 100%;
+  }
+  .matrika-img{
+    width: 39px;
+    height:39px;
+  }
+
+  .img-line{
+    height: 30px;
+    .matrika-img2{
+      width:49px;
+      height:34px;
+    }
+
+  }
+
+  
+  .abc-imf{
+    width: 90%;
+    position:absolute;
+  }
+
+  .cafl{
+    width: 55%;
+    
+    position: relative;
+  }
+
+  .search-in{
+    width: 100%;
+    // margin-bottom: -71px;
+  }
+
+
+
+  .input{
+    margin-top: 34px;
+  }
+
+  .icon-headers{
+    margin-top: -127px;
+    margin-left: 125px;
+  }
+
+  .account{
+    .para-img{
+      width: 14px;
+      height: 12px;
+    }
+
+    .para-acc{
+      font-size: 11px;
+      font-weight: 500;
+    }
+  }
+
+  .heart{
+    .para-img{
+      width: 14px;
+      height: 12px;
+    }
+
+    .para-acc{
+      font-size: 11px;
+      font-weight: 500;
+    }
+  }
+
+  .cart{
+    .para-img{
+      width: 14px;
+      height: 12px;
+    }
+    .para-acc{
+      font-size: 11px;
+      font-weight: 500;
+    }
+  }
+
+ 
+
+ 
+  .input {
+    width: 100%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 680px) {
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .frame {
+    img {
+      width: 20%;
+      height: 12%;
+    }
+  }
+
+  .image-chain {
+    padding-bottom: 15px;
+    overflow: none;
+    .ring-img {
+      width: 100%;
+      height: 210px;
+      border-radius: 10px;
+      transition: none;
+      transition: none;
+      cursor: pointer;
+    }
+
+    .ring-img:hover {
+      transform: none;
+    }
+  }
+
+  .main-lifetime{
+    overflow-x: scroll;
+  }
+
+  .desire1{
+    height: 145px;
+  }
+  .desire2{
+    height: 145px;
+  }
+
+  .desire3{
+    width: 100%;
+    height: 314px;
+  }
+
+  .desire4{
+    height: 144px;
+  }
+  .desire5{
+    height: 140px;
+  }
+
+
+ 
+
+  .main-icon{
+    width: 100% !important;
+  }
+
+  .issured-para{
+    font-size: 12px;
+    padding-left: 10px;
+
+  }
+  .spec-gift{
+    width: 100%;
+    height: 300px;
+  }
+
+  
+
+  
+
+ .temple{
+    height: 170px;
+    
+ }
+
+ .card-ring {
+    background-color: #fff;
+    padding: 16px;
+    overflow: none;
+    border-radius: 8px;
+  
+    .ring-img {
+      width: 100%;
+      height: 125px;
+      border-radius: 5px;
+      transition: none;
+      overflow: none;
+    }
+    .ring-img:hover {
+      transform: none;
+    }
+  }
+
+  .Reg-para{
+    text-align: center;
+  }
+
+  .goldsikka-para{
+    text-align: center;
+  }
+
+  
+
+  
+
+}
+
+
+

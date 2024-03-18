@@ -1,0 +1,817 @@
+.header-bg {
+    background-color: rgb(212, 200, 202);
+    width: 100%;
+    padding: 6px 0px;
+  }
+  
+  .icon-img {
+    display: flex;
+  }
+  
+  img {
+    width: 70px;
+    height: 67px;
+    cursor: pointer;
+  }
+  
+  .img-line {
+    height: 50px;
+    border-left: 2px solid #9d676e;
+    margin-top: 7px;
+    margin-left: 12px;
+    img {
+      width: 91px;
+      height: 67px;
+      margin-left: 12px;
+    }
+  }
+  
+  .input {
+    width: 378px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    color: #4e4b66;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 16px;
+  }
+  
+  .search {
+    padding: 22px 0 12px;
+  }
+  
+  .icon-headers {
+    padding: 19px 0px 5px;
+  }
+  .account {
+    text-align: center !important;
+    img {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+  }
+  
+  .para-acc {
+    color: #803841;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+  }
+  
+  .heart {
+    text-align: center !important;
+    img {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+  }
+  
+  .cart {
+    text-align: center !important;
+    img {
+      width: 20px;
+      height: 20px;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+  }
+  
+  .text-drop {
+    display: flex !important;
+  }
+  
+  .gold-drop {
+    color: gray;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .carousel-img {
+    height: 560px;
+  }
+  
+  .liverate {
+    background-color: #eae3e4;
+    width: 100%;
+    padding: 16px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .liverate-icon {
+    justify-content: center;
+    display: flex !important;
+    img {
+      width: 20px;
+      height: 20px;
+      margin-top: 11px;
+      margin-right: 5px;
+    }
+  }
+  
+  .date {
+    color: #803841;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  
+  .live-para {
+    color: #242330;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .ingot {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+  
+  .para-rup {
+    color: green;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 6px;
+  }
+  
+  .gold-chain {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+  
+  .para-gold {
+    color: red;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 6px;
+  }
+  
+  .silver-chain {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+  
+  .shop {
+  }
+  
+  .para-shop {
+    color: #242330;
+    font-size: 36px;
+    font-family: Cormorant Garamond;
+    text-align: center;
+  }
+  
+  .para2-shop {
+    color: gray;
+    text-align: center;
+  }
+  
+  .frame {
+    text-align: center;
+    img {
+      width: 12%;
+      height: 12%;
+    }
+  }
+  .image-chain {
+    overflow: hidden;
+    .ring-img {
+      width: 100%;
+      height: 210px;
+      border-radius: 10px;
+      transition: transform 0.2s;
+      transition: transform 0.5s ease;
+      cursor: pointer;
+    }
+  
+    .ring-img:hover {
+      transform: scale(1.5);
+    }
+  }
+  
+  .promises {
+    margin-top: 40px;
+  }
+  
+  .promises1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .promises2 {
+    text-align: center;
+    color: gray;
+  }
+  
+  .assured-life {
+    margin-top: 40px;
+  }
+  
+  .main-lifetime {
+    display: flex;
+    justify-content: center !important;
+    text-align: center;
+  }
+  
+  .main-icon {
+    margin: 0 25px;
+    overflow: hidden;
+  
+    .guaranted-img {
+      width: 36px;
+      height: 36px;
+      transition: transform 0.5s ease;
+    }
+  
+    .guaranted-img:hover {
+      transform: scale(1.5);
+    }
+  }
+  
+  .issured-para {
+    color: #242330;
+    font-size: 14px;
+    font-family: 400;
+    font-family: Inter, sans-serif;
+    padding-top: 8px;
+  }
+  
+  .picks {
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 56px;
+  }
+  
+  .product {
+    text-align: center;
+  
+    .btn-product {
+      background-color: #630914;
+      color: #fff;
+      font-weight: 500;
+      font-size: 16px;
+      border-radius: 8px;
+      font-family: Inter, sans-serif;
+      padding: 10px 20px;
+      margin-top: 52px;
+      margin-bottom: 40px;
+    }
+  }
+  
+  .spec-gift {
+    width: 100%;
+    height: 475px;
+    border-radius: 10px;
+  }
+  
+  .desire1 {
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+  }
+  
+  .desire2 {
+    margin: 25px 0px;
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+  }
+  
+  .desire3 {
+    width: 100%;
+    height: 495px;
+    border-radius: 10px;
+  }
+  
+  .desire4 {
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+  }
+  
+  .desire5 {
+    margin: 25px 0px;
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+  }
+  
+  .bg-1 {
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  .temple {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+  
+  .bg-2 {
+    background-color: #f9f9f9;
+    width: 100%;
+    margin-top: 56px;
+  }
+  
+  .card-ring {
+    background-color: #fff;
+    padding: 16px;
+    overflow: hidden;
+    border-radius: 8px;
+  
+    .ring-img {
+      width: 100%;
+      height: 235px;
+      border-radius: 5px;
+      transition: transform 0.5s;
+      overflow: hidden;
+    }
+    .ring-img:hover {
+      transform: scale(1.5);
+    }
+  }
+  
+  .text-gold {
+    text-align: center;
+  }
+  
+  .gold-id {
+    color: #6e7191;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Inter, sans-serif;
+    padding-top: 8px;
+    margin: 0px;
+  }
+  
+  .prices {
+    color: #242330;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    padding-top: 5px;
+    margin: 0px;
+  }
+  
+  .Reg-para {
+    color: #242330;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+  }
+  
+  .goldsikka-para {
+    color: #4e4b66;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+  }
+  
+  .address {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .footer-bg {
+    background-color: #eae3e4;
+    width: 100%;
+    padding: 36px 0px;
+  }
+  
+  .matrika-para {
+    color: #72212b;
+    font-style: 500;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+  }
+  
+  .line {
+    width: 100px;
+    border: 1px solid #9d676e;
+    margin-top: 16px;
+  }
+  
+  .goldpara-head {
+    margin-top: 10px;
+  }
+  
+  .gold-para {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #77838f;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .goldpara-head2 {
+    margin-top: 10px;
+  }
+  .gold-para1 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #77838f;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .social-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .soical-icons {
+    width: 32px;
+    height: 32px;
+    margin-top: 16px;
+  }
+  
+  .goldsikk-Ltd {
+    color: #242330;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    padding-top: 57px;
+  }
+  
+  .x-yug {
+    padding-top: 56px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: #c9a544;
+    cursor: pointer;
+  }
+  
+  .main-cardicon {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .accept-para {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+  }
+  
+  .visa-icon {
+    width: 40px;
+    height: 15px;
+    margin-top: 6px;
+  }
+  
+  .master-icon {
+    width: 34px;
+    height: 20px;
+    margin-top: 6px;
+  }
+  
+  .paytm-icon {
+    width: 44px;
+    height: 19px;
+    margin-top: 6px;
+  }
+  
+  .code-icon {
+    width: 48px;
+    height: 19px;
+    margin-top: 6px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header-bg {
+      width: 100%;
+    }
+    .matrika-img{
+      width: 39px;
+      height:39px;
+    }
+  
+    .img-line{
+      height: 30px;
+      .matrika-img2{
+        width:49px;
+        height:34px;
+      }
+  
+    }
+  
+    
+    .abc-imf{
+      width: 90%;
+      position:absolute;
+    }
+  
+    .cafl{
+      width: 55%;
+      
+      position: relative;
+    }
+  
+    .search-in{
+      width: 50%;
+      // margin-bottom: -71px;
+    }
+  
+    .input{
+      margin-top: 34px;
+    }
+  
+    .icon-headers{
+      margin-top: -130px;
+      margin-left: 125px;
+    }
+  
+   
+  
+   
+    .input {
+      width: 100%;
+    }
+  
+  
+  
+    .carousel-img {
+      height: 200px;
+    }
+  
+    .liverate {
+      margin-top: 10px;
+    }
+  
+    .para2-shop {
+      padding-left: 2px;
+      padding-right: 3px;
+    }
+  
+    .frame {
+      img {
+        width: 50%;
+        height: 12%;
+      }
+    }
+  
+    .image-chain {
+      padding-bottom: 15px;
+      overflow: none;
+      .ring-img {
+        width: 100%;
+        height: 210px;
+        border-radius: 10px;
+        transition: none;
+        transition: none;
+        cursor: pointer;
+      }
+  
+      .ring-img:hover {
+        transform: none;
+      }
+    }
+  
+    .main-lifetime{
+      overflow-x: scroll;
+    }
+  
+   
+  
+    .main-icon{
+      width: 100% !important;
+    }
+  
+    .issured-para{
+      font-size: 12px;
+      padding-left: 10px;
+  
+    }
+    .spec-gift{
+      width: 100%;
+      height: 150px;
+    }
+  
+    .desire-ornaments{
+      width: 50%;
+      display: flex;
+     
+    }
+  
+    .desire1{
+      width: 100%;
+      height: 115px;
+      margin-top: 3px;
+      
+    }
+    .desire2{
+      width: 100%;
+      height: 115px;
+      margin-top: 3px;
+      margin-left: 24px;
+      
+    }
+  
+    .desire3{
+      width: 100%;
+      height: 160px;
+    }
+  
+    .desire4{
+      height: 160px;
+      margin-top: 20px;
+    }
+  
+   .desire-ring{
+      width: 50%;
+      display: flex;
+     
+   }
+  
+   .desire5{
+      height: 120px;
+   }
+  
+   .temple{
+      height: 170px;
+      
+   }
+  
+   .card-ring {
+      background-color: #fff;
+      padding: 16px;
+      overflow: none;
+      border-radius: 8px;
+    
+      .ring-img {
+        width: 100%;
+        height: 235px;
+        border-radius: 5px;
+        transition: none;
+        overflow: none;
+      }
+      .ring-img:hover {
+        transform: none;
+      }
+    }
+  
+    .Reg-para{
+      text-align: center;
+    }
+  
+    .goldsikka-para{
+      text-align: center;
+    }
+
+    // .bg-light{
+    //     margin-top: -68px;
+    //     margin-left: 238px;
+       
+    //     background-color: transparent !important;
+        
+    // }
+
+    
+  
+    
+  
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 680px) {
+    .input {
+      width: 100%;
+    }
+  
+    .frame {
+      img {
+        width: 20%;
+        height: 12%;
+      }
+    }
+  
+    .image-chain {
+      padding-bottom: 15px;
+      overflow: none;
+      .ring-img {
+        width: 100%;
+        height: 210px;
+        border-radius: 10px;
+        transition: none;
+        transition: none;
+        cursor: pointer;
+      }
+  
+      .ring-img:hover {
+        transform: none;
+      }
+    }
+  
+    .main-lifetime{
+      overflow-x: scroll;
+    }
+  
+    .desire1{
+      height: 145px;
+    }
+    .desire2{
+      height: 145px;
+    }
+  
+    .desire3{
+      width: 100%;
+      height: 314px;
+    }
+  
+    .desire4{
+      height: 144px;
+    }
+    .desire5{
+      height: 140px;
+    }
+  
+  
+   
+  
+    .main-icon{
+      width: 100% !important;
+    }
+  
+    .issured-para{
+      font-size: 12px;
+      padding-left: 10px;
+  
+    }
+    .spec-gift{
+      width: 100%;
+      height: 300px;
+    }
+  
+    
+  
+    
+  
+   .temple{
+      height: 170px;
+      
+   }
+  
+   .card-ring {
+      background-color: #fff;
+      padding: 16px;
+      overflow: none;
+      border-radius: 8px;
+    
+      .ring-img {
+        width: 100%;
+        height: 125px;
+        border-radius: 5px;
+        transition: none;
+        overflow: none;
+      }
+      .ring-img:hover {
+        transform: none;
+      }
+    }
+  
+    .Reg-para{
+      text-align: center;
+    }
+  
+    .goldsikka-para{
+      text-align: center;
+    }
+
+    
+
+    
+
+}
+
+
+  
+
+

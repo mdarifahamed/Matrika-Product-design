@@ -1,0 +1,322 @@
+.wish-header{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.para-items{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg{
+    background-color:#F9F9F9;
+}
+.icons{
+    text-align: end;
+    padding-right: 10px;
+    .cut{
+        font-size: 13px;
+    }
+}
+
+
+.main-head{
+    background-color:white;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.img-wish{
+   width: 100%;
+   height: 200px;
+   background-color: #fff;
+   border-radius: 5px;
+}
+
+.earn-para1{
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+.earn-para2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-head{
+    text-align: center;
+    .btn{
+        background-color: #8F5058;
+        color: white;
+    }
+}
+
+.ring-header{
+    border: 1px solid whitesmoke;
+    display: flex;
+    border-radius: 8px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.earring-img{
+    width: 300px;
+    height:200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.items{
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-ring{
+    color: #4E4B66;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.color-rup{
+    color: #630914;
+    font-weight: 500;
+    
+}
+
+
+
+.input{
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+   
+}
+.rup{
+    padding-left: 8rem;
+}
+
+.rup2{
+    padding-left: 10rem;
+}
+
+
+
+.btn{
+    width: 80px;
+    height: 35px;
+    font-weight: 500;
+    background-color: #EAE3E4;
+}
+
+.btn2{
+    width: 60%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#630914;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rup-para3{
+    color: #242330;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.total-rup{
+    // border: 1px solid #F0F3F6;
+    border-radius: 8px;
+    padding: 20px;
+    // padding-left: 8rem;
+}
+
+.queries{
+    border-radius: 8px;
+    // border: 1px solid #F0F3F6;
+    padding: 20px;
+    // padding-left: 5rem;
+}
+
+.whatsapp{
+    padding-right: 11px;
+    padding-top: 4px;
+}
+
+.number{
+    font-weight: 600;
+}
+
+.img-head{
+    text-align: center;
+}
+
+.gram{
+    color: #242330;
+    font-weight: 500;
+}
+
+.btn-order{
+    background-color: #630914;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+   margin: 20px 0px 30px;
+}
+
+
+.modal-header{
+    border: none;
+    padding: 10px;
+}
+
+.modal-body{
+    padding-top: 0px;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: #008000;
+    border-radius: 50%;
+  
+}
+
+.dot2{
+    height: 20px;
+    width: 20px;
+    background-color: #94A2B8;
+    border-radius: 50%;
+  
+}
+
+.para-trans{
+    font-size: 15px;
+    color: #008000;
+    padding-left: 10px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.para-trans2{
+    font-size: 15px;
+    color: #94A2B8;
+    padding-left: 10px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.line{
+    content: "";
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #008000;
+}
+
+.line2{
+    content: "";
+    width: 1px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: #94A2B8;
+}
+
+
+
+
+
+.border-height{
+    border-left: 1px solid black;
+}
+
+
+@media screen and (max-width:500px) {
+    .text-ring{
+        padding: 0px;
+    }
+
+    .ring-header{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+        
+    }
+    
+    .total-rup{
+        padding-left: 0px;
+    }
+
+    .rup-para2{
+        font-size: 14px;
+    }
+
+    .rup-para3{
+        font-size: 14px;
+    }
+
+    .queries{
+        padding: 11px;
+        
+    }
+
+    .gram{
+        font-size: 12px;
+    }
+
+    .text-ring{
+        padding-left: 10px;
+    }
+
+    .queries{
+        border: 1px solid whitesmoke;
+        margin-bottom: 10px;
+    }
+
+    .text-ring{
+        font-size: 14px;
+        
+    }
+    .para1{
+        margin: 0px;
+        padding-bottom: 5px;
+    }
+    .earring-img{
+        width: 101px;
+        height: 190px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .gram{
+        margin: 0px;
+        padding-bottom: 5px;
+        font-weight: 700;
+    }
+
+    .total-rup{
+        border: 1px solid whitesmoke;
+        padding: 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:768px) and (min-width:680px) {
+    .img-wish{
+        
+        height: 95px;
+    }
+
+    .ring-header{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+        
+    }
+
+}
