@@ -87,16 +87,27 @@
     .dropdown {
       padding-bottom: 5px;
     }
+
+    .d-flex {
+      display: flex !important;
+      width: 117px;
+      margin-left: 28px;
+    }
   }
   
-  @media screen and (max-width:768px) and (min-width:680px) {
-     .btn-secondary{
+ @media screen and (max-width:768px) and (min-width:680px) {
+    .btn-secondary{
       padding-left: 5px;
-     }
+    }
   
-     .ring-gold{
+    .ring-gold{
       .ring-img{
           height: 100px;
-      }
-     }
+        }
+    }
+
+    .d-flex {
+      display: flex !important;
+      margin-left: 10px;
+    }
 }
