@@ -13,31 +13,42 @@
                     
                   </div>
                   <div *ngIf="submitted && f['name'].errors " class="invalid-feedback">
-                    <div *ngIf="f['name'].errors['pattern']">name is required</div>
+                    <div *ngIf="f['name'].errors['pattern']">Number is not allowed</div>
                     
                 </div>
             </div>
             
             <label for="">Email</label>
             <div>
-                <input class="input" type="text" placeholder="Enter your email" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
+              <input class="input" type="text" placeholder="Enter your email" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
                 <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
                     <div *ngIf="f['email'].errors['required']">email is required</div>
                     <div *ngIf="f['email'].errors['email']">email is required</div>
                 </div>
-
-
-
             </div>
-
             <label for="">Mobile No</label>
             <div>
                 <input class="input" type="text" placeholder="Enter your number" formControlName="phone" [ngClass]="{ 'is-invalid': submitted && f['phone'].errors }">
                 <div *ngIf="submitted &&  f['phone'].errors"  class="invalid-feedback">
                 
                     <div *ngIf="f['phone'].errors['required']">Mobile no is required</div>
-                    <div *ngIf="f['phone'].errors['minlength']">Moblie no must be  10 digit </div>
+                    <div *ngIf="f['phone'].errors['minlength'] ">mobile no must 10 digit</div>
+                    
+                  
                 </div>
+             
+                <!-- <div *ngIf="submitted &&  f['phone'].errors"  class="invalid-feedback">
+                
+                  
+                  <div *ngIf="f['phone'].errors['maxlength'] ">Moblie no must be  max 10 digit </div>
+                
+                </div>
+                <div *ngIf="submitted &&  f['phone'].errors"  class="invalid-feedback">
+                
+                  
+                  <div *ngIf="f['phone'].errors['pattern'] ">characters is not allowed </div>
+                
+                </div> -->
             </div>
            
 
@@ -46,9 +57,22 @@
             <div>
                 <input class="input" type="text" placeholder="Enter your password" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }">
                 <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
-                    <div *ngIf="f['password'].errors['required']">password is required</div>
+                    <div *ngIf="f['password'].errors['requibred']">password is required</div>
                     <div *ngIf="f['password'].errors['minlength']">Password must be at least 6 characters </div>
                 </div>
+
+            </div>
+            <label for="">confirmPassword</label>
+            <div>
+              <input class="input" type="text" placeholder="Enter your confirmPassword" formControlName="confirmpassword" [ngClass]="{ 'is-invalid': submitted && f['confirmpassword'].errors }">
+              <div *ngIf="submitted && f['confirmpassword'].errors" class="invalid-feedback">
+                  <div *ngIf="f['confirmpassword'].errors['required']">confirmPassword is required</div>
+                  <div *ngIf="f['confirmpassword'].errors['passwordMismatch']">confirmPassword Didn't Match </div>
+              </div>
+              <div *ngIf="submitted && f['confirmpassword'].errors" class="invalid-feedback">
+                <div *ngIf="f['confirmpassword'].errors['required']">confirmPassword is required</div>
+                
+            </div>
 
             </div>
 
@@ -56,13 +80,7 @@
               <button class="btn" (click)="onclick()">Submit</button>
 
             </div>
-
-            
-
-
-           
-            
-        </div>
+          </div>
     </form>
         
     </div>
@@ -70,60 +88,3 @@
 </section>
 
 
-<!-- <section class="header-signup">
-    <div class="signup">
-      <h1 class="account">Login from</h1>
-      <form [formGroup]="form">
-        <label for="">Name</label>
-        <div>
-          <input class="input" type="text" placeholder="Enter Your Username" formControlName="name" [ngClass]="{ 'is-invalid': submitted && f['name'].errors }">
-          <div *ngIf="submitted && f['name'].errors " class="invalid-feedback">
-              <div *ngIf="f['name'].errors['required']">name is required</div>
-              
-            </div>
-  
-            <div *ngIf="submitted && f['name'].errors " class="invalid-feedback">
-              <div *ngIf="f['name'].errors['pattern']">name is required</div>
-              
-            </div>
-        </div>
-  
-        <label class="text" for="">Email</label>
-        <div>
-          <input class="input" type="text" placeholder="Enter Your Email" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f['email'].errors }">
-          <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
-              <div *ngIf="f['email'].errors['required']">email is required</div>
-            </div>
-        </div>
-        <label class="text" for="">Phone</label>
-        <div>
-          <input class="input" type="text" placeholder="Enter Your Number" formControlName="phone" [ngClass]="{ 'is-invalid': submitted && f['phone'].errors }">
-          <div *ngIf="submitted && f['phone'].errors" class="invalid-feedback">
-              <div *ngIf="f['phone'].errors['required']">phone is required</div>
-              
-              
-              
-  
-            </div>
-            
-            <div *ngIf="submitted && f['phone'].errors" class="invalid-feedback">
-              <div *ngIf="f['phone'].errors['minlength']">must be 10 digit </div>
-             </div>  
-           
-           
-        </div>
-        <label class="text" for="">Password</label>
-        <div>
-          <input class="input" type="text" placeholder="Enter Your Password" formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }">
-          <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
-              <div *ngIf="f['password'].errors['required']">password is required</div>
-              <div *ngIf="f['password'].errors['minlength']" >Password must be at least 6 characters</div>
-            </div>
-        </div>
-      <div class="btn-singup">
-        <button class="btnnnnnn" (click)="onclick()">Submit</button>
-      </div>
-      
-  </form>
-    </div>
-  </section> -->

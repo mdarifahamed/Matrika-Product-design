@@ -46,7 +46,10 @@ import { MyorderComponent } from './myorder/myorder.component';
     CarouselModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    
+  ],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

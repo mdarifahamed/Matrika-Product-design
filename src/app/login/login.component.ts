@@ -12,22 +12,45 @@ export class LoginComponent {
   submitted = false;
 
   constructor(private formBuilder: FormBuilder) {
-   
-  }
-
-  ngOnInit(): void {
     this.form=this.formBuilder.group({
       name:new FormControl('',[Validators.required, Validators.pattern('[a-z A-Z]+$')]),
       email:new FormControl('', [Validators.required, Validators.email]),
       password:new FormControl('', [Validators.required, Validators.minLength(5)]),
-      phone:new FormControl('',[Validators.required, Validators.minLength(10)]),
+      phone:new FormControl('',[Validators.required, Validators.minLength(10),Validators.maxLength(10),Validators.pattern('[0-9]')]),
+      
+      confirmpassword:new FormControl('', Validators.required),
+    },
+    {
+      validators: this.passwordMatchValidator
     });
+   
+  }
+
+  ngOnInit(): void {
+   
     
    
   }
   get f(): { [key: string]: AbstractControl } {
     return this.form.controls;
   }
+
+  
+
+  passwordMatchValidator(form: FormGroup) {
+    const password = form.get('password')?.value;
+    const confirmPassword = form.get('confirmpassword')?.value;
+    if (password !== confirmPassword) {
+      form.get('confirmpassword')?.setErrors({ passwordMismatch: true });
+    } else {
+      form.get('confirmpassword')?.setErrors(null);
+    }
+  }
+
+  
+
+
+ 
 
   onclick(): void {
     this.submitted = true;
@@ -45,3 +68,5 @@ export class LoginComponent {
   }
 
 }
+
+
